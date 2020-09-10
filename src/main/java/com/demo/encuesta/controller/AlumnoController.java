@@ -47,7 +47,7 @@ public class AlumnoController
 
 	@ResponseBody
 	@GetMapping("/prueba")
-	public String ObtenerTotalEncuetados(){
+	public String ObtenerPrueba){
 		return "Prueba Alumnos";
 	}
 	
