@@ -44,5 +44,11 @@ public class AlumnoController
 	public List<CantidadTotalEncuestaBean> ObtenerTotalEncuetados(){
 		return alumnoService.ObtenerCantidadTotalEncuestados();
 	}
+
+	@ResponseBody
+	@GetMapping("/prueba")
+	public String ObtenerTotalEncuetados(){
+		return "Prueba Alumnos";
+	}
 	
 }
